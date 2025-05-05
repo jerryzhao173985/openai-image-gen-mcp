@@ -133,7 +133,3 @@ If you encounter problems:
 5. Try the simplified version to isolate issues
 
 For more help, see the [Troubleshooting section](docs/guidelines.md#error-handling-guidelines) in the guidelines.
-
-## License
-
-ISC
