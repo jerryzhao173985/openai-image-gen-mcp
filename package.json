@@ -1,0 +1,37 @@
+{
+  "name": "openai-image-gen-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for OpenAI image generation",
+  "main": "build/index.js",
+  "bin": {
+    "openai-image-gen-mcp": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "npm run build && node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "openai",
+    "image-generation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "node-fetch": "^2.6.1",
+    "minimist": "^1.2.8",
+    "axios": "^1.6.8",
+    "sharp": "^0.33.3",
+    "form-data": "^4.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/node-fetch": "^2.5.12",
+    "@types/axios": "^0.14.0",
+    "@types/form-data": "^2.3.5",
+    "typescript": "^4.9.5"
+  }
+}

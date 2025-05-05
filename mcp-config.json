@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "openai-image-gen": {
+      "command": "node",
+      "args": ["/Users/jerry/openai-image-gen-mcp/build/index.js"],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    }
+  }
+}

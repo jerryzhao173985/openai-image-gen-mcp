@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "simple-image-gen": {
+      "command": "node",
+      "args": ["/Users/jerry/openai-image-gen-mcp/simple-mcp.js"]
+    }
+  }
+}

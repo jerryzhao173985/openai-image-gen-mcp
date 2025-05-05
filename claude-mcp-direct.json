@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openai-image-gen": {
+      "command": "node",
+      "args": ["/Users/jerry/openai-image-gen-mcp/hardcoded-key.js"]
+    }
+  }
+}

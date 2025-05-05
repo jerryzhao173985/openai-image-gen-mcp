@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(npm run build:*)",
+      "Bash(OPENAI_API_KEY=$OPENAI_API_KEY npm start)",
+      "Bash(chmod:*)",
+      "Bash(./start.sh:*)",
+      "Bash(kill:*)",
+      "Bash(ls:*)",
+      "Bash(mv:*)"
+    ],
+    "deny": []
+  }
+}
